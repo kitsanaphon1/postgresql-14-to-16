@@ -7,7 +7,7 @@
 ```bash
 sudo apt update
 ```
-## 1.2. ติดตั้ง PostgreSQL 14
+## 1.2. ติดตั้ง PostgreSQL 14 (ถ้าใช้ ubuntu 20.04  ต้อง Dowload PostgreSQL 14 APT Repository  )
 
 ```bash
 sudo apt install postgresql-14
