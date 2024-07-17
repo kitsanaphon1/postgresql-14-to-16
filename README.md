@@ -72,11 +72,12 @@ sudo apt update
 ```
 ## 3.4. ติดตั้ง PostgreSQL 16
 ```bash
-
+sudo systemctl stop postgresql
 sudo apt install postgresql-16
 ```
 ## 3.5. ลบ Cluster 16 ถ้าจำเป็น (ข้ามไป Run ข้อ 3.6 ถ้า error ค่อยกลับมา)
 ```bash
+
 sudo pg_dropcluster 16 main
 ```
 ## 3.6. อัปเกรด Cluster 14
