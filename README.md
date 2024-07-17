@@ -12,27 +12,27 @@ sudo apt update
 ```bash
 sudo apt install postgresql-14
 ```
-  ### 1.2.1 เพิ่ม PostgreSQL APT Repository:
+  #### 1.2.1 เพิ่ม PostgreSQL APT Repository:
 ```bash
   sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ focal-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 ```
-  ### 1.2.2 นำเข้า GPG Key:
+  #### 1.2.2 นำเข้า GPG Key:
 ```bash
   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 ```
-  ### 1.2.3 นำเข้า GPG Key:
+  #### 1.2.3 นำเข้า GPG Key:
 ```bash
   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 ```
-  ### 1.2.4 อัปเดตแคชแพ็กเกจ:
+  #### 1.2.4 อัปเดตแคชแพ็กเกจ:
 ```bash
   sudo apt update
 ```
-  ### 1.2.5 ติดตั้ง PostgreSQL 14:
+  #### 1.2.5 ติดตั้ง PostgreSQL 14:
 ```bash
  sudo apt install postgresql-14
 ```
- ### 1.2.6 เริ่มบริการ PostgreSQL:
+ #### 1.2.6 เริ่มบริการ PostgreSQL:
 ```bash
 sudo systemctl start postgresql
 ```
