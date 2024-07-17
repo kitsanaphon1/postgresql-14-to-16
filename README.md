@@ -95,5 +95,12 @@ sudo systemctl start postgresql
 ``` bash
 pg_lsclusters
 ```
+## 3.9. เข้าไป Check ข้อมูล Data 
+
+``` bash
+sudo -i -u postgres
+psql
+\l
+```
 สรุป
 ตอนนี้คุณได้ติดตั้งและอัปเกรด PostgreSQL เป็นเวอร์ชัน 16 เรียบร้อยแล้ว! หากมีคำถามหรือปัญหาเพิ่มเติม สามารถสอบถามได้เลย!
