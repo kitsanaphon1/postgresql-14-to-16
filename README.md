@@ -48,6 +48,10 @@ CREATE DATABASE your_database_name;
 
 ```bash
 \c your_database_name;
+
+\q
+
+exit
 ```
 # 3. การอัปเกรดเป็น PostgreSQL 16
 ## 3.1. หยุดบริการ PostgreSQL
