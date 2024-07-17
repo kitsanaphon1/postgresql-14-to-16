@@ -35,24 +35,17 @@ sudo -i -u postgres
 psql
 ```
 ## 2.2. สร้าง Database
-```bash
-sql
-```
+
 ```bash
 CREATE DATABASE your_database_name;
 ```
 ## 2.3. ตรวจสอบ Database
-```bash
-sql
-```
+
 ```bash
 \l
 ```
 ## 2.4. เชื่อมต่อกับ Database
 
-```bash
-sql
-```
 ```bash
 \c your_database_name;
 ```
