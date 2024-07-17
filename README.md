@@ -12,6 +12,10 @@ sudo apt update
 ```bash
 sudo apt install postgresql-14
 ```
+  ### 1.2.1 เพิ่ม PostgreSQL APT Repository:
+```bash
+  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ focal-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+```
 ## 1.3. ตรวจสอบการติดตั้ง
 
 ```bash
