@@ -20,19 +20,15 @@ sudo apt install postgresql-14
 ```bash
   wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 ```
-  #### 1.2.3 นำเข้า GPG Key:
-```bash
-  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-```
-  #### 1.2.4 อัปเดตแคชแพ็กเกจ:
+  #### 1.2.3 อัปเดตแคชแพ็กเกจ:
 ```bash
   sudo apt update
 ```
-  #### 1.2.5 ติดตั้ง PostgreSQL 14:
+  #### 1.2.4 ติดตั้ง PostgreSQL 14:
 ```bash
  sudo apt install postgresql-14
 ```
- #### 1.2.6 เริ่มบริการ PostgreSQL:
+ #### 1.2.5 เริ่มบริการ PostgreSQL:
 ```bash
 sudo systemctl start postgresql
 ```
