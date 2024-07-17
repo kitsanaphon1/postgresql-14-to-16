@@ -75,7 +75,7 @@ sudo apt update
 
 sudo apt install postgresql-16
 ```
-## 3.5. ลบ Cluster 16 ถ้าจำเป็น
+## 3.5. ลบ Cluster 16 ถ้าจำเป็น (ข้ามไป Run ข้อ 3.6 ถ้า error ค่อยกลับมา)
 ```bash
 sudo pg_dropcluster 16 main
 ```
