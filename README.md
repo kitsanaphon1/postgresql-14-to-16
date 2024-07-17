@@ -23,7 +23,7 @@ sudo systemctl enable postgresql
 2. การสร้าง Database
 2.1. เข้าสู่ PostgreSQL
 
-bash
+
 
 sudo -i -u postgres
 psql
